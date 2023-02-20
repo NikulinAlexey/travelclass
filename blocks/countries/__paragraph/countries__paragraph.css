@@ -1,0 +1,7 @@
+.countries__paragraph {
+  margin: 0 0 16px 0;
+}
+
+.countries__paragraph:last-of-type {
+  margin-bottom: 0;
+}

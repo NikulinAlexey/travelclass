@@ -1,0 +1,9 @@
+.countries__logo-item {
+  margin-right: 38px;
+  object-fit: contain;
+  margin: 0 39px 0 0;
+}
+
+.countries__logo-item:last-of-type {
+  margin-right: 0;
+}
