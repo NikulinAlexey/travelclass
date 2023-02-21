@@ -1,0 +1,13 @@
+.search__lower-text {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 16px auto 61px 87px;
+}
+
+@media screen and (max-width: 768px) {
+  .search__lower-text {
+    display: none;
+  }
+}
