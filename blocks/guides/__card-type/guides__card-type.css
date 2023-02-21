@@ -1,0 +1,11 @@
+.guides__card-type {
+  box-sizing: border-box;
+  padding: 6px 12px;
+  display: inline-block;
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 auto 16px 0;
+}

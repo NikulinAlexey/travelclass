@@ -1,0 +1,7 @@
+.guides__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 330px;
+  gap: 30px;
+  margin: 0 0 120px 0;
+}
