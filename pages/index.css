@@ -1,3 +1,4 @@
+/* Общие стили */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
@@ -7,7 +8,9 @@
 @import url(../blocks/text/__accent/text__accent.css);
 @import url(../blocks/text/__title/text__title.css);
 @import url(../blocks/text/__paragraph/text__paragraph.css);
-
+@import url(../blocks/hover-element/hover-element.css);
+@import url(../blocks/input/input.css);
+/* Частные стили */
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/emotion/emotion.css);
@@ -47,3 +50,31 @@
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_spain.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__main-container/footer__main-container.css);
+@import url(../blocks/footer/__logo-container/footer__logo-container.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__rights/footer__rights.css);
+@import url(../blocks/footer/__rights-text/footer__rights-text.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__links-list/footer__links-list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__socials-link/footer__socials-link.css);
+@import url(../blocks/footer/__socials-icon/footer__socials-icon.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+@import url(../blocks/footer/__mail-icon/footer__mail-icon.css);
+@import url(../blocks/footer/__mail-text/footer__mail-text.css);
+@import url(../blocks/footer/__send-offers/footer__send-offers.css);
+@import url(../blocks/footer/__form-title/footer__form-title.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__input/footer__input.css);
+@import url(../blocks/footer/__submit/footer__submit.css);
+@import url(../blocks/footer/__secondary-container/footer__secondary-container.css);
+@import url(../blocks/footer/__payment-icon/footer__payment-icon.css);
+@import url(../blocks/footer/__payment-icon/_type/footer__payment-icon_type_visa.css);
+@import url(../blocks/footer/__payment-icon/_type/footer__payment-icon_type_mastercard.css);
+@import url(../blocks/footer/__policy/footer__policy.css);
+

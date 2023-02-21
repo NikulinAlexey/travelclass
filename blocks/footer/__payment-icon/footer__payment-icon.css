@@ -1,0 +1,7 @@
+.footer__payment-icon {
+  margin: 0 16px 0 0;
+}
+
+.footer__payment-icon:last-of-type {
+  margin-right: auto;
+}
