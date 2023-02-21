@@ -1,0 +1,11 @@
+.form-block__select {
+  display: block;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-appearance: none;
+  appearance: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}

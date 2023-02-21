@@ -58,7 +58,14 @@
 @import url(../blocks/search/__lower-text/search__lower-text.css);
 
 @import url(../blocks/form-block/form-block.css);
-@import url();
+@import url(../blocks/form-block/__label/form-block__label.css);
+@import url(../blocks/form-block/__form/form-block__form.css);
+@import url(../blocks/form-block/__input/form-block__input.css);
+@import url(../blocks/form-block/__input/_type/form-block__input_type_from.css);
+@import url(../blocks/form-block/__input/_type/form-block__input_type_to.css);
+@import url(../blocks/form-block/__select/form-block__select.css);
+@import url(../blocks/form-block/__submit/form-block__submit.css);
+@import url(../blocks/form-block/__select-block/form-block__select-block.css);
 
 @import url(../blocks/guides/guides.css);
 @import url(../blocks/guides/__title/guides__title.css);
