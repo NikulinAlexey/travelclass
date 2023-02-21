@@ -1,6 +1,6 @@
 .advantages__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 270px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 280px;
   gap: 30px;
 }
