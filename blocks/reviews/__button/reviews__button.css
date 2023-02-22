@@ -1,0 +1,10 @@
+.reviews__button {
+  width: 60px;
+  height: 60px;
+  margin: 0 2px 0 0;
+  border-radius: 50%;
+}
+
+.reviews__button:last-of-type {
+  margin-right: 0;
+}

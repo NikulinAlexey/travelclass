@@ -1,0 +1,9 @@
+.cards__rating-icon {
+  width: 17px;
+  height: 17px;
+  margin: 0 8px 0 0;
+  background-image: url(../../../images/rating-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,28 @@
+.reviews__main-button {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #E75348;
+  border-radius: 10px;
+  color: #E75348;
+  height: 56px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+}
+
+.reviews__main-button:hover {
+  background-color: #E75348;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__main-button {
+    display: none;
+  }
+}

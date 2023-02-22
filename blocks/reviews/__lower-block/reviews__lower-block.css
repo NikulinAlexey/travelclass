@@ -1,0 +1,10 @@
+.reviews__lower-block {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__lower-block {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+}

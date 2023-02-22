@@ -11,6 +11,7 @@
 @import url(../blocks/text/__subtitle/text__subtitle.css);
 @import url(../blocks/hover-element/hover-element.css);
 @import url(../blocks/input/input.css);
+
 /* Частные стили */
 @import url(../blocks/header/header.css);
 
@@ -49,6 +50,36 @@
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_department.css);
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_turismo.css);
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_spain.css);
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title-block/reviews__title-block.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__paragraph/reviews__paragraph.css);
+@import url(../blocks/reviews/__buttons/reviews__buttons.css);
+@import url(../blocks/reviews/__button/reviews__button.css);
+@import url(../blocks/reviews/__button/_type/reviews__bitton_type_left.css);
+@import url(../blocks/reviews/__button/_type/reviews__bitton_type_right.css);
+@import url(../blocks/reviews/__main-button/reviews__main-button.css);
+@import url(../blocks/reviews/__lower-block/reviews__lower-block.css);
+@import url(../blocks/reviews/__current-review/reviews__current-review.css);
+@import url(../blocks/reviews/__current-review/_type/reviews__current-review_type_active.css);
+@import url(../blocks/reviews/__buttons-container/reviews__buttons-container.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title-block/cards__title-block.css);
+@import url(../blocks/cards/__rating-block/cards__rating-block.css);
+@import url(../blocks/cards/__rating-icon/cards__rating-icon.css);
+@import url(../blocks/cards/__rating/cards__rating.css);
+@import url(../blocks/cards/__customer/cards__customer.css);
+@import url(../blocks/cards/__customer-icon/cards__customer-icon.css);
+@import url(../blocks/cards/__customer-name/cards__customer-name.css);
+@import url(../blocks/cards/__school/cards__school.css);
+@import url(../blocks/cards/__subtitle/cards__subtitle.css);
+@import url(../blocks/cards/__paragraph/cards__paragraph.css);
+@import url(../blocks/cards/__read-full/cards__read-full.css);
 
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__title-block/search__title-block.css);

@@ -1,0 +1,9 @@
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 24px 24px 30px 24px;
+  height: 100%;
+}

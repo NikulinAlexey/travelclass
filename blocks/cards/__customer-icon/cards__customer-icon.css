@@ -1,0 +1,9 @@
+.cards__customer-icon {
+  background-image: url(../../../images/cusomer-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px 0 0;
+}

@@ -1,0 +1,11 @@
+.cards__link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 20px;
+  color: inherit;
+}
+
+.cards__link:nth-last-of-type(2n) {
+  background-color: #F5F9FD;
+}

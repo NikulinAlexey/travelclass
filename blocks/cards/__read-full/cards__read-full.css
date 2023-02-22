@@ -1,0 +1,6 @@
+.cards__read-full {
+  display: block;
+  text-decoration-line: underline;
+  color: #E75348;
+  margin: auto auto 0 0;
+}
