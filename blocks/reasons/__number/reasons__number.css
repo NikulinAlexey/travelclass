@@ -1,0 +1,9 @@
+.reasons__number {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  margin: 0 auto 12px 0;
+}

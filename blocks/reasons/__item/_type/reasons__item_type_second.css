@@ -1,0 +1,8 @@
+.reasons__item_type_second {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}

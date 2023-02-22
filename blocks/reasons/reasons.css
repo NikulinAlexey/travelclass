@@ -1,0 +1,8 @@
+.reasons {
+  max-width: 1260px;
+  margin: 0 auto 160px auto;
+  box-sizing: border-box;
+  padding: 60px 45px 132px 45px;
+  background-color: #F5F9FD;
+  border-radius: 40px;
+}

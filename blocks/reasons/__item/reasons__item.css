@@ -1,0 +1,9 @@
+.reasons__item {
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: #fff;
+  border: 1px solid #E6E6E6;
+}
+

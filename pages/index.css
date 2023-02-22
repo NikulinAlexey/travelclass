@@ -51,6 +51,24 @@
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_turismo.css);
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_spain.css);
 
+@import url(../blocks/reasons/reasons.css);
+@import url(../blocks/reasons/__title/reasons__title.css);
+@import url(../blocks/reasons/__container/reasons__container.css);
+@import url(../blocks/reasons/__item/reasons__item.css);
+@import url(../blocks/reasons/__item/_type/reasons__item_type_first.css);
+@import url(../blocks/reasons/__item/_type/reasons__item_type_second.css);
+@import url(../blocks/reasons/__item/_type/reasons__item_type_third.css);
+@import url(../blocks/reasons/__item/_type/reasons__item_type_fourth.css);
+@import url(../blocks/reasons/__item/_type/reasons__item_type_fifth.css);
+@import url(../blocks/reasons/__number/reasons__number.css);
+@import url(../blocks/reasons/__number/_type/reasons__number_type_first.css);
+@import url(../blocks/reasons/__number/_type/reasons__number_type_second.css);
+@import url(../blocks/reasons/__number/_type/reasons__number_type_third.css);
+@import url(../blocks/reasons/__number/_type/reasons__number_type_fourth.css);
+@import url(../blocks/reasons/__subtitle/reasons__subtitle.css);
+@import url(../blocks/reasons/__paragraph/reasons__paragraph.css);
+@import url(../blocks/reasons/__link/reasons__link.css);
+
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__title-block/reviews__title-block.css);
 @import url(../blocks/reviews/__text/reviews__text.css);

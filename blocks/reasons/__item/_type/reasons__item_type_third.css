@@ -1,0 +1,9 @@
+.reasons__item_type_third {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
