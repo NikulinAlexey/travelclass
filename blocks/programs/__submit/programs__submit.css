@@ -1,0 +1,14 @@
+.programs__submit {
+  background-color: #E75348;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.programs__submit:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #E75348;
+  border: 1px solid #E75348;
+}

@@ -1,0 +1,6 @@
+.programs__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 480px);
+  gap: 30px;
+}

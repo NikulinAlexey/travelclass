@@ -1,0 +1,6 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  margin: 0 auto 160px auto;
+}

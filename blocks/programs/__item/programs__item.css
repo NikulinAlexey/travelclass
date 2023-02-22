@@ -1,0 +1,9 @@
+.programs__item {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 15px 15px 20px 15px;
+  border-radius: 20px;
+  border: 1px solid #E6E6E6;
+  height: 100%;
+}

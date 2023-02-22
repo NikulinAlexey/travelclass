@@ -51,6 +51,28 @@
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_turismo.css);
 @import url(../blocks/countries/__logo-item/_type/countries__logo-item_type_spain.css);
 
+@import url(../blocks/programs/programs.css);
+@import url(../blocks/programs/__text-block/programs__text-block.css);
+@import url(../blocks/programs/__title/programs__title.css);
+@import url(../blocks/programs/__paragraph/programs__paragraph.css);
+@import url(../blocks/programs/__form/programs__form.css);
+@import url(../blocks/programs/__select-block/programs__select-block.css);
+@import url(../blocks/programs/__select-item/programs__select-item.css);
+@import url(../blocks/programs/__submit/programs__submit.css);
+@import url(../blocks/programs/__items/programs__items.css);
+@import url(../blocks/programs/__item-link/programs__item-link.css);
+@import url(../blocks/programs/__item/programs__item.css);
+@import url(../blocks/programs/__image/programs__image.css);
+@import url(../blocks/programs/__description/programs__description.css);
+@import url(../blocks/programs/__subtitle/programs__subtitle.css);
+@import url(../blocks/programs/__info/programs__info.css);
+@import url(../blocks/programs/__location-block/programs__location-block.css);
+@import url(../blocks/programs/__location-icon/programs__location-icon.css);
+@import url(../blocks/programs/__location-text/programs__location-text.css);
+@import url(../blocks/programs/__age-block/programs__age-block.css);
+@import url(../blocks/programs/__price/programs__price.css);
+@import url(../blocks/programs/__button/programs__button.css);
+
 @import url(../blocks/reasons/reasons.css);
 @import url(../blocks/reasons/__title/reasons__title.css);
 @import url(../blocks/reasons/__container/reasons__container.css);

@@ -1,0 +1,7 @@
+.programs__item-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 100%;
+}
