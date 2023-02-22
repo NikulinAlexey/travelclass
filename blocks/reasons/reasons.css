@@ -6,3 +6,9 @@
   background-color: #F5F9FD;
   border-radius: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .reasons {
+    display: none;
+  }
+}
