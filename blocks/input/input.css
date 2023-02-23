@@ -1,16 +1,19 @@
 .input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   box-sizing: border-box;
   padding: 14px 0px 14px 16px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-::placeholder {
+.input::placeholder {
   color: #444;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-::focus {
-  border: 1px solid #444;
+.input::focus {
+  border: 1px solid #E75348;
 }
