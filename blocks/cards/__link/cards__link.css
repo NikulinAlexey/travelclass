@@ -4,8 +4,9 @@
   background-color: #fff;
   border-radius: 20px;
   color: inherit;
+  transition: all .3s ease-in-out;
 }
 
-.cards__link:nth-last-of-type(2n) {
+.cards__link:hover {
   background-color: #F5F9FD;
 }

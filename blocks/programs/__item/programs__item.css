@@ -6,4 +6,9 @@
   border-radius: 20px;
   border: 1px solid #E6E6E6;
   height: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.programs__item:hover {
+  border: 1px solid #E75348;
 }

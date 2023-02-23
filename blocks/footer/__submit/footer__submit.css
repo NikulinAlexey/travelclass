@@ -3,9 +3,16 @@
   height: 48px;
   background-color: #E75348;
   border-radius: 10px;
-  border: none;
+  border: 1px solid #E75348;
   background-image: url(../../../images/footer-send-icon.png);
   background-size: 14px;
   background-position: center;
   background-repeat: no-repeat;
+  transition: all .3s ease-in-out;
+}
+
+.footer__submit:hover {
+  cursor: pointer;
+  background-image: url(../../../images/footer-send-icon-acitve.png);
+  background-color: #fff; 
 }

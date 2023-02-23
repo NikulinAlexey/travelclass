@@ -1,0 +1,27 @@
+.form__pseudo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  height: 33px;
+  border: none;
+  box-sizing: border-box;
+  padding: 8px 24px;
+  transition: all .3s ease-in-out;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin: 0 2px;
+}
+
+.form__pseudo-item:hover {
+  cursor: pointer;
+  background: #F5F9FD;
+  border-radius: 10px;
+}
+
+.form__item_el_number-of-columns:checked+.form__pseudo-item_type_radio {
+  background-color: #E75348;
+  color: #fff;
+}

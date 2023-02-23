@@ -14,6 +14,58 @@
     <header></header>
 
     <main class="content">
+      <section class="intro">
+        <div class="intro__container">
+          <div class="intro__title-block">
+            <div class="intro__text-block">
+              <h1 class="intro__title">Platform for teachers and parents to book language school holidays</h1>
+              <p class="intro__paragraph text__paragraph">Find language schools, junior camps and tours worldwide</p>
+            </div>
+            <img src="./images/intro-image.png" alt="" class="intro__image">
+          </div>
+          <form action="submit" class="form">
+            <div class="form__checkbox-block">
+              <label for="teacher" class="form__label form__label_direction_right">
+                <input
+                  type="radio"
+                  name="role"
+                  id="teacher"
+                  class="form__item form__item_el_number-of-columns" 
+                  value="teacher"
+                  checked
+                >
+                <span class="form__pseudo-item form__pseudo-item_type_radio">I am a teacher</span>
+              </label>
+              <label for="parent" class="form__label form__label_direction_right">
+                <input
+                  type="radio"
+                  name="role"
+                  id="parent"
+                  class="form__item form__item_el_number-of-columns" 
+                  value="parent"
+                >
+                <span class="form__pseudo-item form__pseudo-item_type_radio">I am a parent</span>
+              </label>
+            </div>
+            <div class="form__search-block">
+              <label for="" class="form-block__label">Age</label>
+              <div action="submit" class="form-block__form">
+                <input type="text" class="input form-block__input form-block__input_type_from" placeholder="from 12">
+                <input type="text" class="input form-block__input form-block__input_type_to" placeholder="to 17">
+                <div class="form-block__select-block">
+                  <select name="" id="" class="input form-block__select hover-element">
+                    <option value="">All Countries</option>
+                    <option value="">Country 1</option>
+                    <option value="">Country 2</option>
+                  </select>
+                </div>
+                <button class="form-block__submit">Find</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
       <section class="emotion">
         <div class="emotion__text-block">
           <h2 class="emotion__title text__title">Bright <span class="text__accent">emotions</span> for students and
@@ -254,7 +306,7 @@
           <img src="./images/reasons-image.png" alt="Фото улыбающейся девушки"
             class="reasons__item reasons__item_type_first">
           <a href="https://travelclass.org/offer/catalog/?role=teacher&sort_by=1&age_from=&age_to=&country%5B%5D=all"
-            class="reasons__item reasons__item_type_second hover-element">
+            class="reasons__item reasons__item_type_second">
             <div class="reasons__number reasons__number_type_first"></div>
             <h3 class="reasons__subtitle text__subtitle">Authentic language experiences</h3>
             <p class="reasons__paragraph">Learning a language in a native country also allows you to have authentic
@@ -264,7 +316,7 @@
             <div class="reasons__link">Link to tour</div>
           </a>
           <a href="https://travelclass.org/offer/catalog/?role=teacher&sort_by=1&age_from=&age_to=&country%5B%5D=all"
-            class="reasons__item reasons__item_type_third hover-element">
+            class="reasons__item reasons__item_type_third">
             <div class="reasons__number reasons__number_type_second"></div>
             <h3 class="reasons__subtitle text__subtitle">Improved pronunciation</h3>
             <p class="reasons__paragraph">Learning a language in a native country can also help improve your
@@ -274,7 +326,7 @@
             <div class="reasons__link">Link to tour</div>
           </a>
           <a href="https://travelclass.org/offer/catalog/?role=teacher&sort_by=1&age_from=&age_to=&country%5B%5D=all"
-            class="reasons__item reasons__item_type_fourth hover-element">
+            class="reasons__item reasons__item_type_fourth">
             <div class="reasons__number reasons__number_type_third"></div>
             <h3 class="reasons__subtitle text__subtitle">Immersion in the language</h3>
             <p class="reasons__paragraph">Being surrounded by native speakers in a native country allows you to immerse
@@ -284,7 +336,7 @@
             <div class="reasons__link">Link to tour</div>
           </a>
           <a href="https://travelclass.org/offer/catalog/?role=teacher&sort_by=1&age_from=&age_to=&country%5B%5D=all"
-            class="reasons__item reasons__item_type_fifth hover-element">
+            class="reasons__item reasons__item_type_fifth">
             <div class="reasons__number reasons__number_type_fourth"></div>
             <h3 class="reasons__subtitle text__subtitle">Cultural context</h3>
             <p class="reasons__paragraph">Learning a language in your home country can provide you with an opportunity
@@ -538,7 +590,7 @@
             <p class="footer__form-title">Twice a month we will send you best offers for school group travel.</p>
             <form action="submit" class="footer__form" method="" action="">
               <input id="" type="text" class="footer__input input" placeholder="Your e-mail">
-              <button class="footer__submit hover-element" type="submit"></button>
+              <button class="footer__submit" type="submit"></button>
             </form>
           </div>
         </div>

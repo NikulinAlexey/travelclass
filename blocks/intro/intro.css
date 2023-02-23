@@ -1,0 +1,7 @@
+.intro {
+  width: 100%;
+  margin: 0 0 160px 0;
+  display: flex;
+  background-color: #F5F9FD;
+  box-sizing: border-box;
+}

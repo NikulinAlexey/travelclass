@@ -15,6 +15,24 @@
 /* Частные стили */
 @import url(../blocks/header/header.css);
 
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__title-block/intro__title-block.css);
+@import url(../blocks/intro/__text-block/intro__text-block.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__paragraph/intro__paragraph.css);
+@import url(../blocks/intro/__image/intro__image.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__checkbox-block/form__checkbox-block.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__label/_direction/form__label_direction_right.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_number-of-columns.css);
+@import url(../blocks/form/__pseudo-item/form__pseudo-item.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_radio.css);
+@import url(../blocks/form/__search-block/form__search-block.css);
+
 @import url(../blocks/emotion/emotion.css);
 @import url(../blocks/emotion/__text-block/emotion__text-block.css);
 @import url(../blocks/emotion/__title/emotion__title.css);

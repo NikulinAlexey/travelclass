@@ -1,0 +1,10 @@
+.form__checkbox-block {
+  display: flex;
+  background: #DFEFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 2px 0;
+  height: 37px;
+  margin: 0 auto 12px 0;
+  width: 284px;
+}
