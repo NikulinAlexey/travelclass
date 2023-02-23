@@ -4,3 +4,31 @@
   grid-template-rows: 350px 310px;
   gap: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+  .emotion__galery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 320px);
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .emotion__galery {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 350px);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .emotion__galery {
+    grid-template-rows: repeat(5, 300px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .emotion__galery {
+    grid-template-rows: repeat(5, 204px);
+  }
+}

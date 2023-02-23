@@ -2,3 +2,17 @@
   grid-column: 9 / 13;
   grid-row: 2 / 3;
 }
+
+@media screen and (max-width: 1024px) {
+  .emotion__galery-item_type_fifth {
+    grid-column: 1/ 2;
+    grid-row: 3 / 4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .emotion__galery-item_type_fifth {
+    grid-column: 1/ 2;
+    grid-row: 5 / 6;
+  }
+}

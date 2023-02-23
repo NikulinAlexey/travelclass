@@ -3,3 +3,17 @@
   font-size: 42px;
   line-height: 54px;
 }
+
+@media screen and (max-width: 1024px) {
+  .text__title {
+    font-size: 33px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text__title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}

@@ -1,4 +1,10 @@
 .emotion__text-block {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .emotion__text-block {
+    margin-bottom: 32px;
+  }
 }
