@@ -6,3 +6,9 @@
   margin: 20px 0 0 0;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .header__input {
+    margin-top: 12px;
+  }
+}

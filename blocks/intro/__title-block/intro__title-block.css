@@ -2,3 +2,9 @@
   display: flex;
   margin: 62px 0 40px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title-block {
+    margin: 24px 10px 32px 10px;
+  }
+}

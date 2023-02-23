@@ -9,3 +9,9 @@
   line-height: 20px;
   width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  .form-block__select {
+    border-radius:  10px;
+  }
+}

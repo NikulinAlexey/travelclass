@@ -4,3 +4,10 @@
   line-height: 16px;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__language {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

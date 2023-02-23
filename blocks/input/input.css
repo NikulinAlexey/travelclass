@@ -7,7 +7,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.input::placeholder {
+::placeholder {
   color: #444;
   font-weight: 400;
   font-size: 16px;
@@ -16,4 +16,21 @@
 
 .input::focus {
   border: 1px solid #E75348;
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  ::placeholder {
+    color: #444;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .input.form-block__select {
+    color: #444;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

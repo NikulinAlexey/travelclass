@@ -1,5 +1,23 @@
 .header__search-block {
   width: 71.6%;
   position: relative;
-  margin: 0 54px 0 0;
+  margin: 0 auto 0 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .header__search-block {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__search-block {
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .header__search-block {
+    margin-right: 16px;
+  }
 }

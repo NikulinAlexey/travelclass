@@ -1,3 +1,10 @@
 .form-block__input_type_from {
   border-radius: 10px 0px 0px 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .form-block__input_type_from {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+}

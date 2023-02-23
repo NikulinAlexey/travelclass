@@ -6,3 +6,9 @@
   height: 16px;
   background-image: url(../../../images/search-icon.png);
 }
+
+@media screen and (max-width: 768px) {
+  .header__search-icon {
+    top: 20px;
+  }
+}
