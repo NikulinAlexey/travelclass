@@ -5,3 +5,9 @@
   background-color: #F5F9FD;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-bottom: 90px;
+  }
+}
