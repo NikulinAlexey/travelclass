@@ -5,6 +5,12 @@
 
 @media screen and (max-width: 1000px) {
   .footer__contacts {
-    margin: 0 auto 70px 8px;
+    margin: 0 auto 70px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__contacts {
+    margin-left: 0;
   }
 }

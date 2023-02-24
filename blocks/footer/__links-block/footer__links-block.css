@@ -5,6 +5,12 @@
 
 @media screen and (max-width: 1000px) {
   .footer__links-block {
-    margin: 0 auto 32px 0;
+    margin: 0 auto 32px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__links-block {
+    margin-left: 0;
   }
 }

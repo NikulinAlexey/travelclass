@@ -13,3 +13,9 @@
     margin-right: 20px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__links-list {
+    margin-right: 37px;
+  }
+}
