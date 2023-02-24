@@ -142,8 +142,9 @@
 @import url(../blocks/reviews/__main-button/reviews__main-button.css);
 @import url(../blocks/reviews/__lower-block/reviews__lower-block.css);
 @import url(../blocks/reviews/__current-review/reviews__current-review.css);
-@import url(../blocks/reviews/__current-review/_type/reviews__current-review_type_active.css);
 @import url(../blocks/reviews/__buttons-container/reviews__buttons-container.css);
+@import url(../blocks/reviews/__current-item/reviews__current-item.css);
+@import url(../blocks/reviews/__current-item/_type/reviews__current-item_type_active.css);
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__link/cards__link.css);

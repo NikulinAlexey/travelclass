@@ -1,3 +1,16 @@
 .cards__subtitle {
   margin: auto auto 12px 0;
+  letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__subtitle {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__subtitle {
+    margin-bottom: 8px;
+  }
 }

@@ -1,1 +1,5 @@
-.reviews__current-review {}
+.reviews__current-review {
+  display: flex;
+  margin: 0 32px 0 0;
+  align-items: center;
+}

@@ -419,7 +419,7 @@
           </div>
         </div>
         <div class="cards">
-          <a href="#" class="cards__link hover-element">
+          <a href="#" class="cards__link">
             <div class="cards__item">
               <div class="cards__title-block">
                 <div class="cards__rating-block">
@@ -432,9 +432,9 @@
                 </div>
               </div>
               <p class="cards__school">Emerald Dublin Marino College — summer school in Ireland</p>
-              <h3 class="cards__subtitle text__subtitle">“Excursions to the city were amazing, all without exception!”
+              <h3 class="cards__subtitle">“Excursions to the city were amazing, all without exception!”
               </h3>
-              <p class="cards__paragraph text__paragraph">I liked everything very much! Ireland is a wonderful country,
+              <p class="text__paragraph cards__paragraph">I liked everything very much! Ireland is a wonderful country,
                 and I do not regret
                 that I went there, and not, for example, to the very same England. The campus is veryI liked everything
                 very much! Ireland is a wonderful country, and I do not regret
@@ -443,7 +443,7 @@
               <p class="cards__read-full">Read full review</p>
             </div>
           </a>
-          <a href="#" class="cards__link hover-element">
+          <a href="#" class="cards__link">
             <div class="cards__item">
               <div class="cards__title-block">
                 <div class="cards__rating-block">
@@ -456,8 +456,8 @@
                 </div>
               </div>
               <p class="cards__school">EC London - language school in London</p>
-              <h3 class="cards__subtitle text__subtitle">“It was a great experience!”</h3>
-              <p class="cards__paragraph text__paragraph">I stayed at EC London for two weeks. It was a great
+              <h3 class="cards__subtitle">“It was a great experience!”</h3>
+              <p class="text__paragraph cards__paragraph">I stayed at EC London for two weeks. It was a great
                 experience. A great English school,
                 very nice teachers and everyone else at EC is nice, and good English lessons I stayed at EC London for
                 two weeks. It was a great
@@ -467,7 +467,7 @@
               <p class="cards__read-full">Read full review</p>
             </div>
           </a>
-          <a href="#" class="cards__link hover-element">
+          <a href="#" class="cards__link">
             <div class="cards__item">
               <div class="cards__title-block">
                 <div class="cards__rating-block">
@@ -480,9 +480,9 @@
                 </div>
               </div>
               <p class="cards__school">Emerald Dublin Marino College — summer school in Ireland</p>
-              <h3 class="cards__subtitle text__subtitle">“Excursions to the city were amazing, all without exception!”
+              <h3 class="cards__subtitle">“Excursions to the city were amazing, all without exception!”
               </h3>
-              <p class="cards__paragraph text__paragraph">I liked everything very much! Ireland is a wonderful country,
+              <p class="text__paragraph cards__paragraph">I liked everything very much! Ireland is a wonderful country,
                 and I do not regret
                 that I went there, and not, for example, to the very same England. The campus is very I liked everything
                 very much! Ireland
@@ -495,10 +495,15 @@
         </div>
         <a href="#" class="reviews__main-button">See all reviews</a>
         <div class="reviews__lower-block">
-          <div class="reviews__current-review reviews__current-review_type_active"></div>
+          <div class="reviews__current-review">
+            <div class="reviews__current-item reviews__current-item_type_active"></div> <!--Текущий кружочек выделяет класс "reviews__current-item_type_active" -->
+            <div class="reviews__current-item"></div>
+            <div class="reviews__current-item"></div>
+            <div class="reviews__current-item"></div>
+          </div>
           <div class="reviews__buttons">
-            <div class="reviews__button reviews__bitton_type_left"></div>
-            <div class="reviews__button reviews__bitton_type_right"></div>
+            <div class="reviews__button reviews__bitton_type_left hover-element"></div>
+            <div class="reviews__button reviews__bitton_type_right hover-element"></div>
           </div>
         </div>
       </section>
@@ -656,7 +661,7 @@
         </div>
       </div>
     </footer>
-  
+
   </div>
   <script src="./js/libs/jquery-3.6.3.min.js"></script>
   <script src="./js/index.js"></script>

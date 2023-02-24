@@ -7,3 +7,9 @@
   padding: 24px 24px 30px 24px;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .cards__item {
+    padding: 24px;
+  }
+}

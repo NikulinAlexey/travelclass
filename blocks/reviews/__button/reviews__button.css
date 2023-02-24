@@ -8,3 +8,10 @@
 .reviews__button:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .reviews__button {
+    width: 40px;
+    height: 40px;
+  }
+}

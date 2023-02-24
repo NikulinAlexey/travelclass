@@ -10,3 +10,18 @@
 .cards__link:hover {
   background-color: #F5F9FD;
 }
+
+@media screen and (max-width: 900px) {
+  .cards__link:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cards__link {
+    display: none;
+  }
+  .cards__link:first-of-type {
+    display: flex;
+  }
+}
