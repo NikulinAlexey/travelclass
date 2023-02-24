@@ -1,3 +1,9 @@
 .programs__title {
   margin: 0 auto 16px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .programs__title {
+    margin-bottom: 8px;
+  }
+}

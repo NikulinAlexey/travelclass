@@ -12,3 +12,9 @@
 .programs__item:hover {
   border: 1px solid #E75348;
 }
+
+@media screen and (max-width: 768px) {
+  .programs__item {
+    padding: 15px;
+  }
+}

@@ -1,1 +1,5 @@
-.programs__location-text {}
+.programs__location-text {
+  white-space: nowrap;
+  font-weight: inherit;
+  font-size: inherit;
+  }

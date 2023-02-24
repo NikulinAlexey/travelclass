@@ -5,3 +5,9 @@
   border-radius: 20px;
   margin: 0 0 12px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .programs__image {
+    height: 140px;
+  }
+}

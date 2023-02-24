@@ -12,3 +12,9 @@
   top: 25px;
   right: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+  .programs__select-block:after {
+    top: 20px;
+  }
+}

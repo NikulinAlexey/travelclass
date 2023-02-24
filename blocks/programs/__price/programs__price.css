@@ -4,3 +4,10 @@
   font-size: 20px;
   line-height: 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .programs__price {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}

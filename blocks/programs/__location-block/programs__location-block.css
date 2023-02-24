@@ -5,10 +5,8 @@
   border-radius: 10px;
   padding: 6px 12px;
   margin-right: 4px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
   box-sizing: border-box;
-  letter-spacing: -0.5px;
   height: 28px;
+  font-weight: inherit;
+  font-size: inherit;
 }

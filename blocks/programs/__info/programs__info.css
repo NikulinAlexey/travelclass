@@ -1,4 +1,16 @@
 .programs__info {
   display: flex;
   margin: 0 auto 10px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .programs__info {
+    font-size: 12px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
 }

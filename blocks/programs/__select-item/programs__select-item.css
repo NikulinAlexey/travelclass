@@ -7,7 +7,14 @@
   font-size: 16px;
   line-height: 20px;
   width: 100%;
-  background: #F5F9FD;
+  background-color: #F5F9FD;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  color: #444;
+}
+
+@media screen and (max-width: 768px) {
+  .programs__select-item {
+    background-color: #fff;
+  }
 }
