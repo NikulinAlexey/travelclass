@@ -3,3 +3,9 @@
   height: 140px;
   margin: 0 60px 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .search__image {
+    display: none;
+  }
+}

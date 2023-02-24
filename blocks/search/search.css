@@ -6,4 +6,19 @@
   box-sizing: border-box;
   background-color: #F5F9FD;
   border-radius: 40px;
+  padding:  0 71px;
+}
+
+@media screen and (max-width: 1280px) {
+  .search {
+    width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    margin-bottom: 90px;
+    padding: 60px 10px 50px 10px;
+  }
 }

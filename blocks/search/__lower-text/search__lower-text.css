@@ -6,6 +6,12 @@
   margin: 16px auto 61px 87px;
 }
 
+@media screen and (max-width: 1024px) {
+  .search__lower-text {
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .search__lower-text {
     display: none;
