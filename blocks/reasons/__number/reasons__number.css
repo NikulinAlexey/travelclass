@@ -7,3 +7,9 @@
   box-sizing: border-box;
   margin: 0 auto 12px 0;
 }
+
+@media screen and (max-width: 850px) {
+  .reasons__number {
+    margin-bottom: 8px;
+  }
+}

@@ -11,3 +11,15 @@
 .reasons__item_type_second:hover {
   background-color: #F5F9FD;
 }
+
+@media screen and (max-width: 1280px) {
+  .reasons__item_type_second {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .reasons__item_type_second {
+    padding-top: 10px;
+  }
+}
