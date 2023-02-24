@@ -5,3 +5,10 @@
   margin: 0 0 8px 0;
   max-width: 270px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__form-title {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

@@ -2,3 +2,9 @@
   display: flex;
   margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__links-block {
+    margin: 0 auto 32px 0;
+  }
+}

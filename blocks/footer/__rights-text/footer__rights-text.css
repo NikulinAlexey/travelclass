@@ -4,3 +4,9 @@
   line-height: 14px;
   margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer__rights-text {
+    display: none;
+  }
+}

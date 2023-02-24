@@ -7,3 +7,9 @@
 .footer__links-list:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer__links-list {
+    margin-right: 20px;
+  }
+}

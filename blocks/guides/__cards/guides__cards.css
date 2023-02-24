@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1280px) {
   .guides__cards {
-    grid-template-columns: repeat(2, minmax(270px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(270px, auto));
     grid-template-rows: 330px 330px;
   }
 }
