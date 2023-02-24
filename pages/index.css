@@ -222,3 +222,24 @@
 @import url(../blocks/footer/__payment-icon/_type/footer__payment-icon_type_mastercard.css);
 @import url(../blocks/footer/__policy/footer__policy.css);
 
+@import url(../blocks/authorization/authorization.css);
+@import url(../blocks/authorization/__container/authorization__container.css);
+@import url(../blocks/authorization/__close-icon/authorization__close-icon.css);
+@import url(../blocks/authorization/__title/authorization__title.css);
+@import url(../blocks/authorization/__paragraph/authorization__paragraph.css);
+@import url(../blocks/authorization/__link/authorization__link.css);
+@import url(../blocks/authorization/__form/authorization__form.css);
+@import url(../blocks/authorization/__label/authorization__label.css);
+@import url(../blocks/authorization/__input/authorization__input.css);
+@import url(../blocks/authorization/__error/authorization__error.css);
+@import url(../blocks/authorization/__submit/authorization__submit.css);
+@import url(../blocks/authorization/__password-block/authorization__password-block.css);
+@import url(../blocks/authorization/__main-label/authorization__main-label.css);
+@import url(../blocks/authorization/__item/authorization__item.css);
+@import url(../blocks/authorization/__pseudo-item/authorization__pseudo-item.css);
+@import url(../blocks/authorization/__pseudo-item/_type/authorization__pseudo-item_type_checkbox.css);
+@import url(../blocks/authorization/__item/_el/authorization__item_el_extra-options.css);
+@import url(../blocks/authorization/__pseudo-label/authorization__pseudo-label.css);
+@import url(../blocks/authorization/__forgot-link/authorization__forgot-link.css);
+@import url(../blocks/authorization/__submit/_type/authorization__submit_type_inactive.css);
+@import url(../blocks/authorization/__input/_type/authorization__input_type_error.css);

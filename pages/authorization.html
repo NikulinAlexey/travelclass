@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TavelClass</title>
+</head>
+<body class="body">
+  <div class="page">
+    <div class="authorization">
+      <div class="authorization__container">
+        <div class="authorization__close-icon hover-element"></div>
+        <h1 class="authorization__title text__title">Login</h1>
+        <p class="authorization__paragraph">Don’t have an account? Create you account? <a href="#" class="authorization__link hover-element">Create you account</a> it takes less than a minute</p>
+        <form  class="authorization__form" name="loginForm" novalidate>
+          <p class="authorization__main-label">E-mail</p>
+          <input 
+            type="text"
+            id="login-input"
+            class=" input authorization__input authorization__input_type_login"
+            name="login"
+            placeholder="Username or Email"
+            minlength="2"
+            maxlength="40"
+            required>
+          <span id="login-input-error" class="authorization__error"></span>
+          <p class="authorization__main-label">Password</p>
+          <input
+            type="text"
+            id="password-input"
+            class="input authorization__input authorization__input_type_password"
+            name="password"
+            placeholder="Password"
+            minlength="2"
+            maxlength="200"
+            required>
+          <span  id="password-input-error" class="authorization__error"></span>
+          <div class="authorization__password-block">
+            <label for="rememberPassword" class="authorization__label">
+              <input type="checkbox" name="extra-option" id="rememberPassword" class="authorization__item authorization__item_el_extra-options" value="rememberPassword">
+              <span class="authorization__pseudo-item authorization__pseudo-item_type_checkbox"></span>
+              <span class="authorization__pseudo-label">Remember me</span>
+            </label>
+            <a href="#" class="authorization__forgot-link hover-element">Forgot your password?</a>
+          </div>
+          <button type="submit" class="authorization__submit">Log in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <script src="../js/validation.js"></script>
+</body>
+</html>

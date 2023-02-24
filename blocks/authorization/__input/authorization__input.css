@@ -1,0 +1,7 @@
+.authorization__input {
+  border-radius: 10px;
+}
+
+.authorization__input:focus {
+  outline: none;
+}

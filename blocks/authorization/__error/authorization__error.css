@@ -1,0 +1,11 @@
+.authorization__error {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF0000;
+  margin: 8px auto 20px 20px;
+}
+
+.authorization__error_visible {
+  display: block;
+}

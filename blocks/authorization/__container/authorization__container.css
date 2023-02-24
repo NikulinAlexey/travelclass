@@ -1,0 +1,11 @@
+.authorization__container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  width: 370px;
+  position: relative;
+  padding: 24px 24px 40px 24px;
+  height: 500px;
+}

@@ -1,0 +1,13 @@
+.authorization__pseudo-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px 0 0;
+}

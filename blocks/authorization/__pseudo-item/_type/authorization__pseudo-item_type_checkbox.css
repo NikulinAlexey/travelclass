@@ -1,0 +1,11 @@
+.authorization__pseudo-item_type_checkbox {
+  
+}
+
+.authorization__item_el_extra-options:checked + .authorization__pseudo-item_type_checkbox {
+  background-image: url(../../../../images/checked-icon.png);
+  background-repeat: no-repeat;
+  background-size: 8px 6px;
+  background-position: center;
+}
+
