@@ -10,3 +10,9 @@
 .advantages__item:nth-of-type(2n) {
   background-color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .advantages__item {
+    padding: 12px;
+  }
+}

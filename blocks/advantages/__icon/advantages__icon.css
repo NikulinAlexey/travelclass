@@ -4,3 +4,10 @@
   object-fit: cover;
   margin: 0 auto 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .advantages__icon {
+    width: 22px;
+    height: 22px;
+  }
+}

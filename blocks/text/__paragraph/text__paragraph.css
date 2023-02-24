@@ -7,6 +7,6 @@
 @media screen and (max-width: 768px) {
   .text__paragraph {
     font-size: 12px;
-    font-weight: 14px;
+    line-height: 14px;
   }
 }

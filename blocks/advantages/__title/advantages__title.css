@@ -1,3 +1,10 @@
 .advantages__title {
   margin: 0 auto 40px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .advantages__title {
+    margin-bottom: 32px;
+    margin-left: 5px;
+  }
+}

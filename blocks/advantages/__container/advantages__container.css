@@ -4,3 +4,23 @@
   grid-template-rows: 280px;
   gap: 30px;
 }
+
+@media screen and (max-width: 1280px) {
+  .advantages__container {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 280px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__container {
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+  }
+}
