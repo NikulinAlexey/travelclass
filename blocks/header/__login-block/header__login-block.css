@@ -27,7 +27,13 @@
     background-position: center;
     width: 36px;
     height: 24px;
+    z-index: 3;
   }
+
+  .header__login-block.closed {
+    z-index: 1;
+  }
+
   .header__login-block:hover {
     background-image: url(../../../images/login-icon-white.png);
   }  

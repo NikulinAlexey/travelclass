@@ -13,6 +13,10 @@
 @media screen and (max-width: 768px) {
   .header__search-block {
     margin-right: auto;
+    z-index: 3;
+  }
+  .header__search-block.closed {
+    z-index: 1;
   }
 }
 

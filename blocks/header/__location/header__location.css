@@ -13,5 +13,9 @@
     margin-right: 12px;
     font-size: 12px;
     line-height: 14px;
+    z-index: 3;
+  }
+  .header__location.closed {
+    z-index: 1;
   }
 }
