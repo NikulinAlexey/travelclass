@@ -4,4 +4,11 @@
   font-size: 14px;
   line-height: 16px;
   color: #E75348;
+  margin: auto 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .guides__more {
+    margin-top: auto;
+  }
 }

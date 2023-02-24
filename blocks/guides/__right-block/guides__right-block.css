@@ -1,0 +1,4 @@
+.guides__right-block {
+  display: flex;
+  flex-direction: column;
+}

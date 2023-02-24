@@ -1,3 +1,9 @@
 .guides__subtitle {
   margin: 0 0 12px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .guides__subtitle {
+    margin-bottom: 8px;
+  }
+}

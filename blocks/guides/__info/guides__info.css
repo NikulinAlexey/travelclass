@@ -3,4 +3,11 @@
   font-size: 14px;
   line-height: 18px;
   opacity: .6;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .guides__info {
+    font-size: 12px;
+  }
 }

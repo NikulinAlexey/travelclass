@@ -1,7 +1,29 @@
 .guides__cards {
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 330px;
   gap: 30px;
   margin: 0 0 120px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .guides__cards {
+    grid-template-columns: repeat(2, minmax(270px, auto));
+    grid-template-rows: 330px 330px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .guides__cards {
+    grid-template-rows: max-content;
+    margin-bottom: 60px;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .guides__cards {
+    grid-template-columns: 1fr;
+  }
 }

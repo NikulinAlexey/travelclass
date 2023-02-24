@@ -1,4 +1,5 @@
 .guides__card-link {
   text-decoration: none;
   color: inherit;
+  height: 100%;
 }
