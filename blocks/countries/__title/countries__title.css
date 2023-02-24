@@ -1,3 +1,9 @@
 .countries__title {
   margin: 0 0 24px 0;
 }
+
+@media screen and (max-width: 768px) {
+  countries__title {
+    margin-bottom: 12px;
+  }
+}

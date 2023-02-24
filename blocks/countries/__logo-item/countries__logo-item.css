@@ -7,3 +7,10 @@
 .countries__logo-item:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .countries__logo-item {
+    height: 33px;
+    margin-right: 15px;
+  }
+}

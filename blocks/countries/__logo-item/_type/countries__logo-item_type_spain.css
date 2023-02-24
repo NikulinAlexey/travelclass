@@ -1,1 +1,7 @@
 .countries__logo-item_type_spain {}
+
+@media screen and (max-width: 1100px) {
+  .countries__logo-item_type_spain {
+    width: 117px;
+  }
+}

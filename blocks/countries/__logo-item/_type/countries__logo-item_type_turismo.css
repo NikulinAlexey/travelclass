@@ -1,1 +1,7 @@
 .countries__logo-item_type_turismo {}
+
+@media screen and (max-width: 1100px) {
+  .countries__logo-item_type_turismo {
+    width: 77px;
+  }
+}
